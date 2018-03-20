@@ -1,93 +1,27 @@
 /**index.wxss**/
-.home-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 1px #cccccc;
+    margin: 8px;
+    position: relative;
 }
 
-/* .weui-grids {
-  position: relative;
-  overflow: hidden; 
-} */
-
-/* .weui-grids:before {
-  content: " ";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  height: 1px;
-  border-top: 1px solid #d9d9d9;
-  color: #d9d9d9;
-  -webkit-transform-origin: 0 0;
-  transform-origin: 0 0;
-  -webkit-transform: scaleY(0.5);
-  transform: scaleY(0.5);
-} */
-/* .weui-grids:after {
-  content: " ";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1px;
-  bottom: 0;
-  border-left: 1px solid #d9d9d9;
-  color: #d9d9d9;
-  -webkit-transform-origin: 0 0;
-  transform-origin: 0 0;
-  -webkit-transform: scaleX(0.5);
-  transform: scaleX(0.5);
-} */
-
- .weui-grid {
-  position: relative;
-  float: left;
-  padding: 10px 8px;
-  width: 33.33333333%;
-  box-sizing: border-box;
-}
-/* .weui-grid:before {
-  content: " ";
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 1px;
-  bottom: 0;
-  border-right: 1px solid #d9d9d9;
-  color: #d9d9d9;
-  -webkit-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: scaleX(0.5);
-  transform: scaleX(0.5);
-} */
-/* .weui-grid:after {
-  content: " ";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 1px;
-  border-bottom: 1px solid #d9d9d9;
-  color: #d9d9d9;
-  -webkit-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-  -webkit-transform: scaleY(0.5);
-  transform: scaleY(0.5);
-} */
-
-/* .weui-grid:active {
-  background-color: #ececec;
-} */
-
-.weui-grid-item {
-  width:210rpx;
-  height:210rpx;
-  margin:0 auto;
+.loadmore {
+    border: 0px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 1px #cccccc;
+    margin: 8px;
 }
 
- .weui-grid-item image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+.image{
+  width:100%;
+  height:240px; 
+}
+
+.title {
+    padding: 14px;
+    font-size: 14px;
 }

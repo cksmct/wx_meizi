@@ -1,10 +1,13 @@
 <!--index.wxml-->
-<view class="home-container">
-  <view class="weui-grids">
-    <view class="weui-grid" wx:key="{{item._id}}" wx:for="{{meiziData}}" wx:for-item="item" wx:for-index="index">
-      <view class="weui-grid-item" data-url="{{item.url}}" bindtap = "bindViewTap">
-        <image src="{{item.url}}" mode="aspectFill" />
-      </view>
+<view>
+
+  <view class= "card" wx:key="{{item._id}}" wx:for = "{{meiziData}}">
+  
+    <view  data-url="{{item.url}}" bindtap = "bindViewTap">
+       <image class= "image" mode="aspectFill" src="{{item.url}}"/>
+       <view class="title">{{'publish by: @' + item.who}}</view>
     </view>
+
   </view>
+
 </view>

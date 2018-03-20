@@ -67,7 +67,7 @@ Page({
           return;
         }
 
-        // console.log(res.data);
+        console.log(res.data);
         for (var i = 0; i < res.data.results.length; i++) {
           mDatas.push(res.data.results[i]);
         }
