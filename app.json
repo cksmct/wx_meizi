@@ -1,11 +1,24 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/index/index",
+    "pages/random/random"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#eb5c60",
-    "navigationBarTitleText": "美丽约",
-    "navigationBarTextStyle":"white"
+    "navigationBarTitleText": "妹子图",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/random/random",
+        "text": "随便看看"
+      }
+    ]
   }
 }
