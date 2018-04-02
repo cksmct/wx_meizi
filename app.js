@@ -53,6 +53,7 @@ App({
   globalData: {
     userInfo: null,
     baseUrl:"https://gank.io/api",
+    myUrl:"https://cksmct.applinzi.com/pics/",
   }
 
 })

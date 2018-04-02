@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/pics/pics",
     "pages/index/index",
     "pages/random/random"
   ],
@@ -12,12 +13,16 @@
   "tabBar": {
     "list": [
       {
+        "pagePath": "pages/pics/pics",
+        "text": "妹子图"
+      },
+      {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "Gank"
       },
       {
         "pagePath": "pages/random/random",
-        "text": "随便看看"
+        "text": "试试手气"
       }
     ]
   }
